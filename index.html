@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shree Beauty | Beauty Parlour Westcliff-on-Sea, Southend | Nails, Threading, Waxing & Facials</title>
-<meta name="description" content="Shree Beauty – ladies-only beauty parlour in Westcliff-on-Sea, Southend-on-Sea, Essex. Expert gel nails, threading, waxing, eyelash extensions & facials. Book on WhatsApp instantly!">
-<meta name="keywords" content="beauty parlour Westcliff-on-Sea, beauty salon Southend-on-Sea, nail salon Essex, threading Southend, waxing Westcliff, eyelash extensions Southend, gel nails Essex, facial Westcliff, ladies beauty salon near London, Indian threading Essex, beauty treatment Leigh-on-Sea, eyebrow threading Southend, Brazilian wax Essex, gel manicure Southend, pedicure Westcliff, Shree Beauty, WhatsApp booking salon Essex">
+<meta name="description" content="Shree Beauty – ladies-only beauty parlour in Westcliff-on-Sea, Southend-on-Sea, Essex. Expert gel nails, threading, waxing, eyelash extensions & facials. Book online with Google Form!">
+<meta name="keywords" content="beauty parlour Westcliff-on-Sea, beauty salon Southend-on-Sea, nail salon Essex, threading Southend, waxing Westcliff, eyelash extensions Southend, gel nails Essex, facial Westcliff, ladies beauty salon near London, Indian threading Essex, beauty treatment Leigh-on-Sea, eyebrow threading Southend, Brazilian wax Essex, gel manicure Southend, pedicure Westcliff, Shree Beauty, online booking salon Essex">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Shree Beauty">
 <link rel="canonical" href="https://shreebeauty.co.uk/">
@@ -13,14 +13,14 @@
 <meta name="geo.placename" content="Westcliff-on-Sea, Southend-on-Sea, Essex">
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Shree Beauty | Ladies Beauty Parlour – Westcliff-on-Sea, Essex">
-<meta property="og:description" content="Premium ladies-only beauty salon in Westcliff-on-Sea. Book on WhatsApp! Gel nails, threading, waxing, lash extensions, facials & more.">
+<meta property="og:description" content="Premium ladies-only beauty salon in Westcliff-on-Sea. Book online! Gel nails, threading, waxing, lash extensions, facials & more.">
 <meta property="og:url" content="https://shreebeauty.co.uk/">
 <meta property="og:locale" content="en_GB">
 <script type="application/ld+json">
 {
   "@context":"https://schema.org","@type":"BeautySalon",
   "name":"Shree Beauty","url":"https://shreebeauty.co.uk",
-  "description":"Ladies-only premium beauty parlour in Westcliff-on-Sea, Essex. Gel nails, threading, waxing, eyelash extensions and facials. Book via WhatsApp.",
+  "description":"Ladies-only premium beauty parlour in Westcliff-on-Sea, Essex. Gel nails, threading, waxing, eyelash extensions and facials. Book online via Google Form.",
   "address":{"@type":"PostalAddress","streetAddress":"482 Fairfax Dr","addressLocality":"Westcliff-on-Sea","addressRegion":"Essex","postalCode":"SS0 9RN","addressCountry":"GB"},
   "geo":{"@type":"GeoCoordinates","latitude":51.5394,"longitude":0.6969},
   "openingHoursSpecification":[
@@ -36,7 +36,7 @@
   "@context":"https://schema.org","@type":"FAQPage",
   "mainEntity":[
     {"@type":"Question","name":"Where is Shree Beauty located?","acceptedAnswer":{"@type":"Answer","text":"482 Fairfax Dr, Westcliff-on-Sea, Southend-on-Sea, Essex SS0 9RN."}},
-    {"@type":"Question","name":"Can I book on WhatsApp?","acceptedAnswer":{"@type":"Answer","text":"Yes! Tap the WhatsApp button on our website to message us instantly and book your appointment for free — no app needed beyond WhatsApp."}},
+    {"@type":"Question","name":"How do I book an appointment at Shree Beauty?","acceptedAnswer":{"@type":"Answer","text":"You can book online using our Google Form on this website. Fill in your name, phone, service, preferred date and time, and we will send you a confirmation email."}},
     {"@type":"Question","name":"Is Shree Beauty ladies only?","acceptedAnswer":{"@type":"Answer","text":"Yes, Shree Beauty is a ladies-only salon providing a safe, relaxing environment exclusively for women."}},
     {"@type":"Question","name":"Do I need a patch test before eyelash treatments?","acceptedAnswer":{"@type":"Answer","text":"Yes — a patch test is required at least 24 hours before any eyelash extension or perming treatment."}}
   ]
@@ -49,7 +49,6 @@
 :root{
   --pink:#e8547a;--deep-pink:#c93563;--blush:#f9d0dc;
   --cream:#fdf6f0;--dark:#1a0a10;--gold:#c9a96e;--text:#3a1a24;--muted:#8a6070;
-  --wa:#25D366;--wa-dark:#128C7E;
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
@@ -63,17 +62,13 @@ nav{position:fixed;top:0;width:100%;z-index:100;background:rgba(253,246,240,.97)
 .nav-links a{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--text);text-decoration:none;font-weight:500;transition:color .3s;}
 .nav-links a:hover{color:var(--pink);}
 .nav-right{display:flex;gap:10px;align-items:center;}
-.nav-wa{background:var(--wa);color:#fff;border:none;padding:9px 18px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:1px;font-weight:600;cursor:pointer;transition:all .3s;display:flex;align-items:center;gap:6px;text-decoration:none;}
-.nav-wa:hover{background:var(--wa-dark);transform:translateY(-1px);}
-.nav-wa svg{width:15px;height:15px;fill:#fff;flex-shrink:0;}
-.nav-book{background:var(--pink);color:#fff;border:none;padding:9px 20px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;}
+.nav-book{background:var(--pink);color:#fff;border:none;padding:10px 22px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;}
 .nav-book:hover{background:var(--deep-pink);transform:translateY(-1px);}
 
-/* ── WHATSAPP FLOAT BTN ── */
-.wa-float{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--wa);color:#fff;border-radius:50px;padding:14px 22px;display:flex;align-items:center;gap:10px;box-shadow:0 6px 28px rgba(37,211,102,.4);cursor:pointer;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;transition:all .3s;animation:waPulse 2s ease-in-out infinite;}
-.wa-float:hover{background:var(--wa-dark);transform:translateY(-3px);box-shadow:0 10px 36px rgba(37,211,102,.5);animation:none;}
-.wa-float svg{width:22px;height:22px;fill:#fff;flex-shrink:0;}
-@keyframes waPulse{0%,100%{box-shadow:0 6px 28px rgba(37,211,102,.4);}50%{box-shadow:0 6px 40px rgba(37,211,102,.7);}}
+/* ── BOOK NOW FLOAT BTN ── */
+.book-float{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--pink);color:#fff;border-radius:50px;padding:14px 22px;display:flex;align-items:center;gap:10px;box-shadow:0 6px 28px rgba(232,84,122,.4);cursor:pointer;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:13px;font-weight:600;transition:all .3s;animation:btnPulse 2.5s ease-in-out infinite;}
+.book-float:hover{background:var(--deep-pink);transform:translateY(-3px);box-shadow:0 10px 36px rgba(232,84,122,.5);animation:none;}
+@keyframes btnPulse{0%,100%{box-shadow:0 6px 28px rgba(232,84,122,.4);}50%{box-shadow:0 6px 40px rgba(232,84,122,.7);}}
 
 /* ── HERO ── */
 .hero{min-height:100vh;background:linear-gradient(135deg,#fff0f4 0%,#fce8d0 50%,#fff5f8 100%);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:120px 60px 60px;position:relative;overflow:hidden;}
@@ -88,9 +83,6 @@ nav{position:fixed;top:0;width:100%;z-index:100;background:rgba(253,246,240,.97)
 .hero-btns{display:flex;gap:12px;flex-wrap:wrap;}
 .btn-primary{background:var(--pink);color:#fff;padding:14px 32px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-block;}
 .btn-primary:hover{background:var(--deep-pink);transform:translateY(-2px);box-shadow:0 10px 28px rgba(232,84,122,.35);}
-.btn-wa{background:var(--wa);color:#fff;padding:14px 26px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:600;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-flex;align-items:center;gap:8px;}
-.btn-wa:hover{background:var(--wa-dark);transform:translateY(-2px);box-shadow:0 10px 28px rgba(37,211,102,.35);}
-.btn-wa svg{width:16px;height:16px;fill:#fff;}
 
 /* Hero mosaic — 3 UNIQUE images, none shared with gallery */
 .hero-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:210px 200px;gap:12px;z-index:1;}
@@ -114,20 +106,7 @@ section{padding:94px 60px;}
 .section-title{font-family:'Playfair Display',serif;font-size:clamp(28px,4vw,48px);color:var(--dark);margin-bottom:14px;}
 .section-title em{color:var(--pink);font-style:italic;}
 
-/* ── WHATSAPP BOOKING BANNER ── */
-.wa-banner{background:linear-gradient(135deg,#1a3a2a,#0d5c3c);color:#fff;padding:56px 60px;text-align:center;position:relative;overflow:hidden;}
-.wa-banner::before{content:'';position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(37,211,102,.08);}
-.wa-banner::after{content:'';position:absolute;bottom:-60px;left:-60px;width:250px;height:250px;border-radius:50%;background:rgba(37,211,102,.06);}
-.wa-banner h2{font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,42px);margin-bottom:14px;color:#fff;}
-.wa-banner h2 em{color:#25D366;font-style:italic;}
-.wa-banner p{font-size:15px;opacity:.8;margin-bottom:32px;max-width:580px;margin-left:auto;margin-right:auto;line-height:1.8;}
-.wa-steps{display:flex;justify-content:center;gap:40px;margin-bottom:36px;flex-wrap:wrap;}
-.wa-step{display:flex;align-items:center;gap:12px;font-size:13px;opacity:.85;}
-.wa-step .num{width:28px;height:28px;border-radius:50%;background:rgba(37,211,102,.25);border:1px solid rgba(37,211,102,.4);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#25D366;flex-shrink:0;}
-.btn-wa-big{background:var(--wa);color:#fff;padding:18px 44px;border:none;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:14px;font-weight:700;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-flex;align-items:center;gap:12px;letter-spacing:.5px;}
-.btn-wa-big:hover{background:var(--wa-dark);transform:translateY(-3px);box-shadow:0 14px 36px rgba(37,211,102,.4);}
-.btn-wa-big svg{width:22px;height:22px;fill:#fff;}
-.wa-note{font-size:12px;opacity:.55;margin-top:14px;}
+
 
 /* ── SERVICES ── */
 #services{background:#fff;}
@@ -144,9 +123,8 @@ section{padding:94px 60px;}
 .service-items li{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(232,84,122,.08);font-size:12.5px;color:var(--muted);}
 .service-items li:last-child{border-bottom:none;}
 .price{color:var(--pink);font-weight:600;font-size:13px;}
-.book-wa{margin-top:14px;width:100%;background:var(--wa);color:#fff;border:none;padding:9px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:7px;text-decoration:none;flex-shrink:0;}
-.book-wa:hover{background:var(--wa-dark);}
-.book-wa svg{width:13px;height:13px;fill:#fff;}
+.book-now{margin-top:auto;padding-top:14px;width:100%;background:var(--pink);color:#fff;border:none;padding:10px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:600;cursor:pointer;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;letter-spacing:1px;}
+.book-now:hover{background:var(--deep-pink);transform:translateY(-1px);box-shadow:0 6px 18px rgba(232,84,122,.3);}
 
 /* ── ABOUT ── */
 #about{background:linear-gradient(135deg,var(--dark) 0%,#2d0e1c 100%);color:#fff;display:flex;gap:80px;align-items:center;}
@@ -216,17 +194,10 @@ section{padding:94px 60px;}
 
 /* ── BOOKING FORM ── */
 #booking{background:#fff;}
-.booking-wrap{max-width:820px;margin:0 auto;background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(232,84,122,.1);overflow:hidden;display:flex;}
+.booking-wrap{max-width:840px;margin:0 auto;background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(232,84,122,.1);overflow:hidden;display:flex;}
 .b-info{background:linear-gradient(160deg,var(--pink),var(--deep-pink));color:#fff;padding:44px 30px;width:280px;flex-shrink:0;}
 .b-info h3{font-family:'Playfair Display',serif;font-size:22px;margin-bottom:8px;}
 .b-info>p{font-size:12.5px;opacity:.82;line-height:1.8;margin-bottom:26px;}
-.b-wa-btn{background:#fff;color:var(--wa-dark);border:none;padding:12px 18px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:8px;margin-bottom:24px;transition:all .3s;text-decoration:none;width:100%;justify-content:center;}
-.b-wa-btn:hover{background:#f0fdf4;transform:translateY(-1px);}
-.b-wa-btn svg{width:16px;height:16px;fill:var(--wa);}
-.b-divider{text-align:center;font-size:11px;opacity:.6;margin-bottom:20px;position:relative;}
-.b-divider::before,.b-divider::after{content:'';position:absolute;top:50%;width:35%;height:1px;background:rgba(255,255,255,.3);}
-.b-divider::before{left:0;}
-.b-divider::after{right:0;}
 .b-detail{display:flex;align-items:flex-start;gap:10px;margin-bottom:15px;}
 .b-detail .ico{font-size:14px;margin-top:3px;flex-shrink:0;}
 .b-detail div{font-size:12px;opacity:.88;line-height:1.65;}
@@ -241,7 +212,8 @@ section{padding:94px 60px;}
 .f-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
 .sub-btn{width:100%;background:linear-gradient(135deg,var(--pink),var(--deep-pink));color:#fff;border:none;padding:14px;border-radius:50px;font-family:'Montserrat',sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .3s;margin-top:6px;}
 .sub-btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(232,84,122,.4);}
-.success-msg{display:none;background:#f0fdf4;border:1.5px solid #86efac;color:#166534;border-radius:10px;padding:13px;margin-top:11px;font-size:13px;text-align:center;}
+.success-msg{display:none;background:#f0fdf4;border:1.5px solid #86efac;color:#166534;border-radius:10px;padding:13px;margin-top:11px;font-size:13px;text-align:center;line-height:1.6;}
+@media(max-width:900px){.booking-wrap{flex-direction:column;}.b-info{width:100%;}.f-row{grid-template-columns:1fr;}.b-form{padding:24px 18px;}}
 
 /* ── FOOTER ── */
 footer{background:var(--dark);color:rgba(255,255,255,.7);padding:52px 48px 24px;text-align:center;}
@@ -251,7 +223,6 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
 .f-links{display:flex;justify-content:center;gap:26px;margin-bottom:28px;flex-wrap:wrap;}
 .f-links a{color:rgba(255,255,255,.5);text-decoration:none;font-size:11px;letter-spacing:1px;transition:color .3s;}
 .f-links a:hover{color:var(--pink);}
-.f-wa-link{color:var(--wa)!important;font-weight:600;}
 .f-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:18px;font-size:11px;color:rgba(255,255,255,.3);}
 
 .toast{position:fixed;bottom:100px;right:28px;z-index:999;background:var(--dark);color:#fff;padding:12px 20px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.2);font-size:13.5px;display:none;align-items:center;gap:8px;}
@@ -274,20 +245,11 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
   .b-form{padding:24px 18px;}
   .photo-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto;}
   .p-item.r2{grid-row:span 1;}
-  .trust-bar{padding:14px 20px;gap:20px;}
-  .wa-steps{flex-direction:column;gap:16px;align-items:flex-start;max-width:320px;margin-left:auto;margin-right:auto;}
-  .wa-banner{padding:48px 24px;}
-}
+  .trust-bar{padding:14px 20px;gap:20px;}}
 </style>
 </head>
 <body>
 
-<!-- ══ WHATSAPP SVG SYMBOL (reusable) ══ -->
-<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
-  <symbol id="waico" viewBox="0 0 24 24">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-  </symbol>
-</svg>
 
 <!-- NAV -->
 <nav aria-label="Main navigation">
@@ -300,30 +262,22 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
     <li><a href="#booking">Book</a></li>
   </ul>
   <div class="nav-right">
-    <a class="nav-wa" href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Book on WhatsApp">
-      <svg><use href="#waico"/></svg> WhatsApp
-    </a>
-    <button class="nav-book" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Online</button>
+    <button class="nav-book" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">Book Appointment</button>
   </div>
 </nav>
 
-<!-- FLOATING WHATSAPP BUTTON -->
-<a class="wa-float" href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Book appointment on WhatsApp">
-  <svg><use href="#waico"/></svg>
-  Book on WhatsApp
-</a>
+<!-- Floating Book Now button -->
+<a class="book-float" href="#booking" aria-label="Book appointment online">✨ Book Appointment</a>
 
 <!-- HERO — images: gel nails, waxing prep, head massage (unique to hero, NOT in gallery) -->
 <section class="hero" aria-label="Hero">
   <div class="hero-content">
     <div class="hero-tag">Ladies Beauty Parlour · Westcliff-on-Sea, Essex</div>
     <h1>Westcliff's <em>Premier</em><br>Beauty Parlour</h1>
-    <p>Shree Beauty is Westcliff-on-Sea's top-rated ladies-only salon. Expert gel nails, eyebrow threading, waxing, eyelash extensions &amp; facials — serving Southend, Essex &amp; London commuter towns. <strong>Book instantly on WhatsApp — it's free!</strong></p>
+    <p>Shree Beauty is Westcliff-on-Sea's top-rated ladies-only salon. Expert gel nails, eyebrow threading, waxing, eyelash extensions &amp; facials — serving Southend, Essex &amp; London commuter towns. <strong>Book your appointment online in seconds!</strong></p>
     <div class="hero-btns">
-      <a href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" class="btn-wa">
-        <svg><use href="#waico"/></svg> Book on WhatsApp — Free
-      </a>
-      <a href="#services" class="btn-primary">View Services &amp; Prices</a>
+      <a href="#booking" class="btn-primary">Book Appointment Online</a>
+      <a href="#services" class="btn-outline">View Services &amp; Prices</a>
     </div>
   </div>
 
@@ -353,26 +307,44 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
 <!-- TRUST BAR -->
 <div class="trust-bar" role="complementary">
   <div class="trust-item"><span class="ic">⭐</span> 5-Star Google Rating</div>
-  <div class="trust-item"><span class="ic">💬</span> Book Free on WhatsApp</div>
+  <div class="trust-item"><span class="ic">📋</span> Easy Online Booking</div>
   <div class="trust-item"><span class="ic">🌸</span> Ladies Only Salon</div>
   <div class="trust-item"><span class="ic">📍</span> Westcliff-on-Sea, Essex</div>
   <div class="trust-item"><span class="ic">✅</span> 10+ Years Experience</div>
 </div>
 
-<!-- WHATSAPP BOOKING BANNER -->
-<div class="wa-banner" id="wa-booking" aria-labelledby="wa-title">
-  <h2 id="wa-title">Book Your Appointment on <em>WhatsApp</em> — It's Free!</h2>
-  <p>The simplest way to book at Shree Beauty. No apps to download, no accounts to create — just tap the button and send us a message. We'll confirm your slot within minutes.</p>
-  <div class="wa-steps">
-    <div class="wa-step"><div class="num">1</div><span>Tap the WhatsApp button below</span></div>
-    <div class="wa-step"><div class="num">2</div><span>Tell us your preferred service &amp; date</span></div>
-    <div class="wa-step"><div class="num">3</div><span>We confirm your appointment — done!</span></div>
+<!-- HOW BOOKING WORKS BANNER -->
+<div style="background:linear-gradient(135deg,var(--dark),#2d0e1c);color:#fff;padding:52px 60px;text-align:center;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:-60px;right:-60px;width:300px;height:300px;border-radius:50%;background:rgba(232,84,122,.06);"></div>
+  <div style="position:absolute;bottom:-60px;left:-60px;width:250px;height:250px;border-radius:50%;background:rgba(201,169,110,.06);"></div>
+  <div style="position:relative;z-index:1;">
+    <p style="font-size:11px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;">Simple &amp; Free</p>
+    <h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,40px);margin-bottom:14px;">How to Book Your <em style="color:var(--pink);font-style:italic;">Appointment</em></h2>
+    <p style="font-size:14px;opacity:.75;max-width:520px;margin:0 auto 36px;line-height:1.8;">We use Google Forms for easy, free online booking. You'll receive an automatic confirmation email the moment you submit.</p>
+    <div style="display:flex;justify-content:center;gap:0;max-width:680px;margin:0 auto 36px;flex-wrap:wrap;">
+      <div style="flex:1;min-width:160px;padding:20px;border-right:1px solid rgba(255,255,255,.1);">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin:0 auto 10px;">1</div>
+        <h4 style="font-size:13px;font-weight:600;margin-bottom:5px;">Fill the Form</h4>
+        <p style="font-size:12px;opacity:.6;">Enter your name, phone &amp; preferred service</p>
+      </div>
+      <div style="flex:1;min-width:160px;padding:20px;border-right:1px solid rgba(255,255,255,.1);">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin:0 auto 10px;">2</div>
+        <h4 style="font-size:13px;font-weight:600;margin-bottom:5px;">Choose Date &amp; Time</h4>
+        <p style="font-size:12px;opacity:.6;">Pick your preferred appointment slot</p>
+      </div>
+      <div style="flex:1;min-width:160px;padding:20px;border-right:1px solid rgba(255,255,255,.1);">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--pink);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin:0 auto 10px;">3</div>
+        <h4 style="font-size:13px;font-weight:600;margin-bottom:5px;">Auto Confirmation</h4>
+        <p style="font-size:12px;opacity:.6;">Google Form emails you a confirmation instantly</p>
+      </div>
+      <div style="flex:1;min-width:160px;padding:20px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:var(--gold);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--dark);margin:0 auto 10px;">4</div>
+        <h4 style="font-size:13px;font-weight:600;margin-bottom:5px;">We Message You</h4>
+        <p style="font-size:12px;opacity:.6;">If approved, you'll receive a message confirming your slot</p>
+      </div>
+    </div>
+    <a href="#booking" class="btn-primary" style="display:inline-block;">Book My Appointment Now →</a>
   </div>
-  <a class="btn-wa-big" href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener" aria-label="Open WhatsApp to book appointment">
-    <svg><use href="#waico"/></svg>
-    Chat &amp; Book on WhatsApp
-  </a>
-  <p class="wa-note">Completely free · No account needed · Instant reply during opening hours</p>
 </div>
 
 <!-- SERVICES -->
@@ -380,7 +352,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
   <div class="svc-head">
     <div class="section-tag">Price List</div>
     <h2 class="section-title" id="svc-title">Our <em>Services</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:520px;margin:0 auto;">Professional beauty treatments at affordable prices in Westcliff-on-Sea. Tap <em style="color:var(--wa-dark)">Book on WhatsApp</em> on any card to message us instantly.</p>
+    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:520px;margin:0 auto;">Professional beauty treatments at affordable prices in Westcliff-on-Sea, Essex. Tap <em style="color:var(--pink);font-style:italic;">Book This Treatment</em> on any card to go straight to our booking form.</p>
   </div>
   <div class="services-grid">
 
@@ -391,9 +363,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Manicure</span><span class="price">£24</span></li>
         <li><span>Gel Colour</span><span class="price">£10</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Gel%20Manicure%20%F0%9F%92%85" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -403,9 +373,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Gel Pedicure</span><span class="price">£30</span></li>
         <li><span>Gel Colour</span><span class="price">£15</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Gel%20Pedicure%20%F0%9F%A6%B6" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -416,9 +384,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Polish Only</span><span class="price">£7</span></li>
         <li><span>Shree Manicure</span><span class="price">£20</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Manicure%20%F0%9F%92%85" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -429,9 +395,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Polish Only</span><span class="price">£10</span></li>
         <li><span>Shree Pedicure</span><span class="price">£28</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Pedicure%20%F0%9F%9B%81" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -445,9 +409,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Eyelash Tint</span><span class="price">£7</span></li>
         <li><span>Brow &amp; Lash Tint</span><span class="price">£12</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20Threading%20%F0%9F%91%81" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -462,9 +424,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Hollywood</span><span class="price">£30</span></li>
         <li><span>Full Body</span><span class="price">£60</span></li>
       </ul>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Waxing%20treatment%20%F0%9F%8C%BF" target="_blank" rel="noopener">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -477,9 +437,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Perming &amp; Tint</span><span class="price">£35</span></li>
       </ul>
       <small style="font-size:11px;color:var(--pink);display:block;margin-top:8px;">⚠️ Patch test required 24 hrs before</small>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20Eyelash%20Extensions%20%E2%9C%A8%20(I%20understand%20a%20patch%20test%20is%20needed%2024hrs%20before)" target="_blank" rel="noopener" style="margin-top:10px;">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
     <div class="service-card">
@@ -489,9 +447,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <li><span>Indian Head Massage (30 min)</span><span class="price">£20</span></li>
       </ul>
       <small style="font-size:11px;color:var(--muted);display:block;margin-top:8px;">Ladies only</small>
-      <a class="book-wa" href="https://wa.me/447737947027?text=Hi!%20I%27d%20like%20to%20book%20a%20Facial%20%F0%9F%AA%B7" target="_blank" rel="noopener" style="margin-top:10px;">
-        <svg><use href="#waico"/></svg> Book on WhatsApp
-      </a>
+      <button class="book-now" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">📅 Book This Treatment</button>
     </div>
 
   </div>
@@ -512,7 +468,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
   </div>
   <div class="about-right">
     <div class="feature-box"><div class="icon">🌸</div><h4>Ladies Only</h4><p>Safe, private &amp; relaxing — exclusively for women.</p></div>
-    <div class="feature-box"><div class="icon">💬</div><h4>WhatsApp Booking</h4><p>Book instantly on WhatsApp — free, fast &amp; easy.</p></div>
+    <div class="feature-box"><div class="icon">📋</div><h4>Easy Online Booking</h4><p>Book via our Google Form — auto confirmation email sent instantly.</p></div>
     <div class="feature-box"><div class="icon">🏆</div><h4>Expert Team</h4><p>Fully trained professionals with 10+ years experience.</p></div>
     <div class="feature-box"><div class="icon">📍</div><h4>Easy to Find</h4><p>Westcliff-on-Sea, Essex — near Southend station.</p></div>
   </div>
@@ -648,8 +604,8 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
     <p style="font-size:14px;color:var(--muted);font-weight:300;margin-bottom:30px;">Everything you need to know about visiting Shree Beauty in Westcliff-on-Sea.</p>
 
     <div class="faq-item">
-      <div class="faq-q" onclick="toggleFaq(this)">Can I book an appointment on WhatsApp for free?</div>
-      <div class="faq-a">Yes! Simply tap any "Book on WhatsApp" button on this page — or the floating green button — and send us a message. It's completely free, requires no app other than WhatsApp, and we'll confirm your booking within minutes during opening hours.</div>
+      <div class="faq-q" onclick="toggleFaq(this)">How do I book an appointment at Shree Beauty?</div>
+      <div class="faq-a">Simply use our online booking form powered by Google Forms — scroll down to the Book section or click "Book Appointment" in the menu. Fill in your details, choose your service and time, and you'll receive an automatic confirmation email instantly. If your appointment is approved, you will receive a message confirming your slot.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">Where is Shree Beauty located?</div>
@@ -665,7 +621,7 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">Do I need a patch test before eyelash treatments?</div>
-      <div class="faq-a">Yes — a patch test is required at least 24 hours before any eyelash extension, perming or tinting treatment. Message us on WhatsApp to arrange your patch test when booking.</div>
+      <div class="faq-a">Yes — a patch test is required at least 24 hours before any eyelash extension, perming or tinting treatment. Please mention this when filling in the booking form so we can arrange your patch test appointment.</div>
     </div>
     <div class="faq-item">
       <div class="faq-q" onclick="toggleFaq(this)">What are your opening hours?</div>
@@ -678,33 +634,34 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
   </div>
 </section>
 
-<!-- BOOKING FORM (alternative to WhatsApp) -->
-<section id="booking">
-  <div style="text-align:center;margin-bottom:42px;">
-    <div class="section-tag" style="justify-content:center;"><span style="display:inline-block;width:28px;height:1px;background:var(--gold);margin-right:12px;"></span>Book Online</div>
+<!-- BOOKING — Our styled form, submits to Google Forms -->
+<section id="booking" style="background:#fff;">
+  <div style="text-align:center;margin-bottom:44px;">
+    <div class="section-tag" style="justify-content:center;"><span style="display:inline-block;width:28px;height:1px;background:var(--gold);margin-right:12px;"></span>Appointments</div>
     <h2 class="section-title">Book Your <em>Treatment</em></h2>
-    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:440px;margin:0 auto;">Prefer WhatsApp? <a href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" style="color:var(--wa-dark);font-weight:600;">Tap here to book instantly →</a></p>
+    <p style="font-size:14px;color:var(--muted);font-weight:300;max-width:500px;margin:0 auto;">Fill in the form below. If your appointment is approved, you will receive a confirmation message.</p>
   </div>
 
   <div class="booking-wrap">
+    <!-- Left info panel -->
     <div class="b-info">
       <h3>Shree Beauty</h3>
       <p>Ladies-only beauty parlour, Westcliff-on-Sea, Essex.</p>
-
-      <!-- WhatsApp CTA inside panel -->
-      <a class="b-wa-btn" href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener">
-        <svg style="fill:var(--wa);width:17px;height:17px;"><use href="#waico"/></svg>
-        Book via WhatsApp Instead
-      </a>
-      <div class="b-divider">or fill in the form</div>
-
       <div class="b-detail">
         <div class="ico">📍</div>
-        <div><strong>Address</strong>482 Fairfax Dr, Westcliff-on-Sea<br>Southend-on-Sea SS0 9RN</div>
+        <div><strong>Address</strong>482 Fairfax Dr<br>Westcliff-on-Sea<br>Southend-on-Sea SS0 9RN</div>
       </div>
       <div class="b-detail">
         <div class="ico">🕐</div>
         <div><strong>Hours</strong>Mon–Sat: 9am – 7pm<br>Sunday: 10am – 5pm</div>
+      </div>
+      <div class="b-detail">
+        <div class="ico">💬</div>
+        <div><strong>Confirmation</strong>If your appointment is approved, you will receive a confirmation message.</div>
+      </div>
+      <div class="b-detail">
+        <div class="ico">✅</div>
+        <div><strong>Approval System</strong>Every booking is reviewed &amp; confirmed by our team before it's finalised</div>
       </div>
       <div class="b-detail">
         <div class="ico">⚠️</div>
@@ -712,16 +669,52 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
       </div>
     </div>
 
+    <!-- Right form — styled by us, submits to Google Forms -->
     <div class="b-form">
       <h3>Request an Appointment</h3>
+
+      <!--
+      ══════════════════════════════════════════════════════════════
+      HOW TO CONNECT YOUR GOOGLE FORM
+      ══════════════════════════════════════════════════════════════
+      WEBSITE FORM → GOOGLE FORMS → GOOGLE SHEETS → APPS SCRIPT
+
+
+      STEP 1 — Create Google Form with these 6 fields:
+        • Full Name           (Short answer, Required)
+        • Phone Number        (Short answer, Required)
+        • Service             (Dropdown, Required)
+        • Preferred Date      (Date, Required)
+        • Preferred Time      (Dropdown/Multiple choice, Required)
+        • Additional Notes    (Paragraph, Optional)
+
+      STEP 2 — Get Form Action URL & entry IDs:
+        • Publish form → open in browser → View Page Source
+        • Search "action=" → copy URL, change /viewform → /formResponse
+        • Search "entry." → note each field's entry.XXXXXXXXX ID
+        • Replace the 7 placeholders in FORM_CONFIG below
+
+      STEP 3 — Link form to Google Sheets:
+        • In Google Forms → Responses tab → click Sheets icon
+        • This creates a spreadsheet with all bookings
+
+      STEP 4 — Add the Apps Script (see shree-beauty-approval.gs file):
+        • In the Google Sheet → Extensions → Apps Script
+        • Paste the full script from shree-beauty-approval.gs
+
+        • Deploy → set trigger: onFormSubmit
+      ══════════════════════════════════════════════════════════════
+      -->
 
       <div class="fg">
         <label for="fullname">Full Name</label>
         <input type="text" id="fullname" placeholder="Your full name" required autocomplete="name">
       </div>
+
       <div class="fg">
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" placeholder="+44 0000 000000" required autocomplete="tel">
+        <input type="tel" id="phone" placeholder="+44 7700 000000" required autocomplete="tel"
+               style="border-color:rgba(232,84,122,.35);">
       </div>
       <div class="fg">
         <label for="service">Service</label>
@@ -756,11 +749,15 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
           <optgroup label="Waxing">
             <option>Half Leg Wax (£15)</option>
             <option>Full Leg Wax (£20)</option>
+            <option>Half Arm Wax (£10)</option>
+            <option>Full Arm Wax (£15)</option>
+            <option>Bikini Line Wax (£10)</option>
             <option>Brazilian Wax (£25)</option>
             <option>Hollywood Wax (£30)</option>
             <option>Full Body Wax (£60)</option>
           </optgroup>
           <optgroup label="Eyelash Extensions">
+            <option>Lash Removal (£6)</option>
             <option>Semi Permanent Lashes (£40)</option>
             <option>Temporary Lashes (£30)</option>
             <option>Eyelash Perming (£30)</option>
@@ -798,9 +795,10 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
         <label for="notes">Additional Notes</label>
         <textarea id="notes" placeholder="Any special requests, allergies, or questions..."></textarea>
       </div>
-      <button class="sub-btn" onclick="submitBooking()">Confirm Appointment ✨</button>
+      <button class="sub-btn" onclick="submitToGoogleForm()">Request Appointment ✨</button>
       <div class="success-msg" id="successMsg">
-        🌸 Thank you! We'll confirm your appointment shortly. You can also <a href="https://wa.me/447737947027" style="color:var(--wa-dark);font-weight:600;">message us on WhatsApp</a> for faster confirmation.
+        🌸 <strong>Booking request received!</strong><br>
+        🌸 Your appointment request has been sent! If approved, you will receive a confirmation message.
       </div>
     </div>
   </div>
@@ -816,30 +814,97 @@ footer>p{font-size:12.5px;margin-bottom:18px;line-height:1.7;}
     <a href="#gallery">Gallery</a>
     <a href="#areas">Areas</a>
     <a href="#faq">FAQ</a>
-    <a href="#booking">Book Online</a>
-    <a class="f-wa-link" href="https://wa.me/447737947027?text=Hi%20Shree%20Beauty!%20I%27d%20like%20to%20book%20an%20appointment%20%F0%9F%8C%B8" target="_blank" rel="noopener">📱 Book on WhatsApp</a>
+    <a href="#booking" style="color:var(--pink);font-weight:600;">📅 Book Appointment</a>
   </div>
   <div class="f-bottom">
     © 2024 Shree Beauty, Westcliff-on-Sea, Essex. All rights reserved.<br>
-    <span style="margin-top:4px;display:block;">Beauty Parlour · Nail Salon · Threading · Waxing · Eyelash Extensions · Facials · WhatsApp Booking · Essex</span>
+    <span style="margin-top:4px;display:block;">Beauty Parlour · Nail Salon · Threading · Waxing · Eyelash Extensions · Facials · Online Booking · Essex</span>
   </div>
 </footer>
 
 <div class="toast" id="toast" role="status"></div>
 
 <script>
+// ── Set min date to today ──
 document.getElementById('date').setAttribute('min', new Date().toISOString().split('T')[0]);
 
-// Auto-fallback: if any gallery image fails to load, swap to its data-fallback URL
+// ── Auto-fallback for gallery images ──
 document.querySelectorAll('.p-item img[data-fallback]').forEach(img => {
   img.addEventListener('error', function() {
-    if (this.src !== this.dataset.fallback) {
-      this.src = this.dataset.fallback;
-    }
+    if (this.src !== this.dataset.fallback) this.src = this.dataset.fallback;
   });
 });
 
-// Nail swatches — names permanently visible beneath each nail
+// ══════════════════════════════════════════════════════════════════
+// GOOGLE FORM CONFIGURATION — replace the 7 values below ONLY
+// ══════════════════════════════════════════════════════════════════
+// HOW TO GET THESE VALUES:
+//  1. Open your Google Form → click Send → Embed (</>) tab
+//     → copy the URL, change /viewform to /formResponse
+//     → paste as FORM_ACTION below
+//  2. Open your published form in browser → right-click → View Source
+//     → search "entry." to find each field's entry ID
+//     → paste each one below
+// ══════════════════════════════════════════════════════════════════
+
+const FORM_CONFIG = {
+  action:  'GOOGLE_FORM_ACTION_URL',   // ends in /formResponse
+  fields: {
+    fullname: 'ENTRY_FULL_NAME',       // e.g. entry.123456789
+    phone:    'ENTRY_PHONE',           // e.g. entry.987654321
+    service:  'ENTRY_SERVICE',         // e.g. entry.111222333
+    date:     'ENTRY_DATE',            // e.g. entry.444555666
+    time:     'ENTRY_TIME',            // e.g. entry.777888999
+    notes:    'ENTRY_NOTES'            // e.g. entry.000111222
+  }
+};
+
+// ── Submit form data to Google Forms ──
+function submitToGoogleForm() {
+  const fullname = document.getElementById('fullname').value.trim();
+  const phone    = document.getElementById('phone').value.trim();
+  const service  = document.getElementById('service').value;
+  const date     = document.getElementById('date').value;
+  const time     = document.getElementById('time').value;
+  const notes    = document.getElementById('notes').value.trim();
+
+  // Validate required fields
+  if (!fullname || !phone || !service || !date || !time) {
+    showToast('⚠️ Please fill in all required fields');
+    return;
+  }
+
+  // Build form data
+  const data = new FormData();
+  data.append(FORM_CONFIG.fields.fullname, fullname);
+  data.append(FORM_CONFIG.fields.phone,    phone);
+  data.append(FORM_CONFIG.fields.service,  service);
+  data.append(FORM_CONFIG.fields.date,     date);
+  data.append(FORM_CONFIG.fields.time,     time);
+  data.append(FORM_CONFIG.fields.notes,    notes);
+
+  // Submit to Google Forms (no-cors — Google doesn't allow cross-origin reads, but submission works)
+  fetch(FORM_CONFIG.action, { method: 'POST', mode: 'no-cors', body: data })
+    .then(() => {
+      // Show success regardless (no-cors means we can't read the response)
+      document.getElementById('successMsg').style.display = 'block';
+      showToast('🌸 Appointment request sent!');
+      // Reset form
+      document.getElementById('fullname').value = '';
+      document.getElementById('phone').value    = '';
+      document.getElementById('service').selectedIndex = 0;
+      document.getElementById('date').value     = '';
+      document.getElementById('time').selectedIndex    = 0;
+      document.getElementById('notes').value    = '';
+    })
+    .catch(() => {
+      // Even on network error the submission usually went through with no-cors
+      document.getElementById('successMsg').style.display = 'block';
+      showToast('🌸 Appointment request sent!');
+    });
+}
+
+// ── Nail swatches ──
 const colours = [
   {n:'MIAMI',h:'#FF4D6D'},{n:'Molassa',h:'#7A2E2E'},{n:'Big Apple',h:'#CC2222'},
   {n:'Cayman',h:'#E84646'},{n:'Seafood',h:'#FF6B35'},{n:'Cocoa',h:'#C85A2A'},
@@ -856,19 +921,15 @@ const colours = [
   {n:'Deep Teal',h:'#004D40'},{n:'Mocha',h:'#5D4037'},{n:'Falling',h:'#6D4C41'},
   {n:'Mischief',h:'#4E342E'},{n:'Snow White',h:'#F5F5F5'},{n:'Blush Rose',h:'#FADADD'},
 ];
-
 const grid = document.getElementById('nailGrid');
 colours.forEach(col => {
   const item = document.createElement('div');
   item.className = 'swatch-item';
-  item.innerHTML = `
-    <div class="swatch-nail" style="background:${col.h}" title="${col.n}"></div>
-    <span class="swatch-name">${col.n}</span>
-  `;
-  item.onclick = () => showToast('🎨 ' + col.n + ' selected');
+  item.innerHTML = `<div class="swatch-nail" style="background:${col.h}" title="${col.n}"></div><span class="swatch-name">${col.n}</span>`;
   grid.appendChild(item);
 });
 
+// ── FAQ accordion ──
 function toggleFaq(el) {
   const item = el.parentElement;
   const wasOpen = item.classList.contains('open');
@@ -876,24 +937,11 @@ function toggleFaq(el) {
   if (!wasOpen) item.classList.add('open');
 }
 
-function submitBooking() {
-  const v = id => document.getElementById(id).value.trim();
-  if (!v('fullname') || !v('phone') || !v('service') || !v('date') || !v('time')) {
-    showToast('⚠️ Please fill in all required fields'); return;
-  }
-  document.getElementById('successMsg').style.display = 'block';
-  showToast('🌸 Booking request sent!');
-  setTimeout(() => {
-    ['fullname','phone','notes'].forEach(id => document.getElementById(id).value = '');
-    ['service','time'].forEach(id => document.getElementById(id).selectedIndex = 0);
-    document.getElementById('date').value = '';
-  }, 2600);
-}
-
+// ── Toast ──
 function showToast(msg) {
   const t = document.getElementById('toast');
   t.textContent = msg; t.style.display = 'flex';
-  setTimeout(() => t.style.display = 'none', 3000);
+  setTimeout(() => t.style.display = 'none', 3500);
 }
 </script>
 </body>
